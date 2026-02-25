@@ -46,8 +46,21 @@ There is a valid path (the player must be able to actually reach the exit and al
 ### ⚙️ Technical Details
 Graphics Library: Built using MiniLibX, a simple X-Window graphical library.
 
+### 📦 Instructions
+Compilation
+To compile the game, run:
+```bash
+make
+```
+How to Run
+Launch the game by providing a map file as an argument:
+```bash
+./so_long maps/level1.ber
+```
+Controls
+WASD or Arrow Keys: Move the character.
+ESC: Close the game and exit.
+Window Cross (X): Close the game and exit.
 Language: Written in C following the Norm coding standard.
-
 Memory: Strict management of heap memory to ensure zero leaks when the window is closed.
-
 Error Handling: If the map file is invalid or a file is missing, the program exits cleanly with a helpful error message.
